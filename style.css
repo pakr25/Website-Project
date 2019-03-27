@@ -1,22 +1,23 @@
+/*Color Of The Background*/
 body {
   padding: 0;
   margin: 0;
   background: #F7F7F7;
-  /* Old browsers */
+
   background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
+
   background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
+
   background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 }
 
-/** Header styles **/
+/*Header Image of The Brocoli*/
 .header {
   background-image: url(https://res.cloudinary.com/teepublic/image/private/s--zsWAPcOH--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1534185872/production/designs/3015979_0.jpg);
   height: 400px;
   background-position: left;
 }
-
+/*Format for Navigation*/
 .brocnroll {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
@@ -27,6 +28,7 @@ body {
   align-self: left;
 }
 
+/*Paragraph for titleh*/
 .brocnroll p {
   color: #938E89;
   text-align: left;
@@ -35,7 +37,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
+/*div for background*/
 .background div {
   font: inherit;
   padding: 0 20px;
@@ -43,31 +45,31 @@ body {
   overflow: auto;
   opacity: 0.9;
 }
-
+/*Paragraph for background*/
 .background p {
   color: #FFFFFF;
   text-align: left;
 }
 
-/* Roast types */
+/*background color for about nav bar*/
 .about {
   background-color: DarkSeaGreen;
 }
-
+/*background color for food nav bar*/
 .food {
   background-color: Sienna;
 }
-
+/*background color for drink nav bar*/
 .drink {
   background-color: SaddleBrown;
 }
-
+/*background color for contact nav bar*/
 .contact {
   background-color: Brown;
 }
 
 
-/* Typography */
+/*Format for all h1*/
 h1 {
   color: #41292C;
   font-family: 'Raleway', sans-serif;
@@ -78,7 +80,7 @@ h1 {
   text-align: left;
   top: 20%;
 }
-
+/*Format for all h2*/
 h2 {
   color: #E4BB97;
   font-family: 'Raleway', sans-serif;
@@ -87,7 +89,7 @@ h2 {
   text-align: left;
   text-transform: uppercase;
 }
-
+/*Format for all h3*/
 h3 {
   color: #082;
   font-family: 'Raleway', sans-serif;
@@ -95,13 +97,14 @@ h3 {
   font-weight: 500;
   text-align: center;
 }
-
+/*Format for all h4*/
 h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: .2em;
 }
+/*Format for all h5*/
 h5 {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -109,20 +112,20 @@ h5 {
   font-weight: 300;
 }
 
-/* Page elements */
+/*Format for all unordered list*/
 ul {
   margin: 0 auto;
   padding: 0;
   width: 75%;
 }
-
+/*Format for all lists */
 li {
   border-bottom: 1px solid #E4BB97;
   list-style: none;
   margin: 100px 0px;
   padding-bottom: 60px;
 }
-
+/*Format for paragraph*/
 p {
   color: #444444;
   line-height: 32px;
@@ -130,7 +133,7 @@ p {
   font-size: 20px;
   font-weight: 100;
 }
-
+/*Format for all id's*/
 a {
   color: #214E34;
   font-family: 'Raleway', sans-serif;
@@ -142,9 +145,14 @@ a {
   letter-spacing: 2px;
 }
 
-.fling-minislide {width:1500px; height:1600px; overflow:hidden; position: relative; }
-.fling-minislide img{ position:absolute; width:0px; height: 0px; top:0px; bottom:100px; left: 0px;right: 50000px; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height:auto;}
+footer{
+  color: #D3D3D3
+}
+/*Format for all slideshow*/
+.fling-minislide {width:650px; height:650px; overflow:hidden; position: relative; margin: 0 auto;}
+.fling-minislide img{ position:absolute; width:600px; height: 700px; top:0px; bottom:100px;left:0px; right:1000px; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height:auto;}
 
+/*Time for slideshow*/
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
 .fling-minislide img:nth-child(4){animation-delay:0s;}
 .fling-minislide img:nth-child(3){animation-delay:5s;}
